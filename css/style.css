@@ -1219,7 +1219,7 @@ header .circle {
 
 .footer .grid-4 {
   display: grid;
-  grid-template-columns: 3.5fr 2fr 2fr 3fr;
+  grid-template-columns: 3.5fr 2fr 2fr;
 }
 
 .grid-4-col {
@@ -1291,6 +1291,11 @@ header .circle {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.copyright{
+  width: 50%;
+  margin: 0 auto;
 }
 
 .copyright .text {
